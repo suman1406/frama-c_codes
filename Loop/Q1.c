@@ -8,6 +8,7 @@ int sum_of_integers(int n) {
 
     /*@ loop invariant 1 <= i <= n + 1;
         loop invariant sum == (i - 1) * i / 2;
+        loop assigns sum,i;
         loop variant n - i + 1;
     */
     while (i <= n) {
