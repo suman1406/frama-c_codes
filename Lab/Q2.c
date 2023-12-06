@@ -18,7 +18,7 @@
 */
 int checkPos(int arr[], int n)
 {
-    /*@ loop invariant 0 <= i <= n;
+    /*@ loop invariant 0 <= i < n;
         loop invariant \forall integer j; 0 <= j < i ==> arr[j] <= 0;
         loop assigns i;
         loop variant n - i;
